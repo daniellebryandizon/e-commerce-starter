@@ -1,0 +1,20 @@
+{
+  "name": "e_commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server",
+    "start": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Bryan Dizon",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.3",
+    "nodemon": "^2.0.4"
+  }
+}
