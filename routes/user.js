@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
+const { sayHi } = require('../controllers/users');
 
-router.get('/', (req, res) => {
+router.post('/', (req, res) => {
     res.send('get');
 })
 
